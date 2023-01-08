@@ -1,0 +1,102 @@
+body {
+    background-color:white;
+    /*background-image: url("../img/body.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+h1 {
+    margin-left: 10px;
+    color: rgb(255, 213, 0)
+}
+.sticky-top{
+    background-color:white;
+    /*background-image: url("../img/body.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+.parallax {
+    /* The image used */
+    background-image: url("../img/crypto.jpg");
+  
+    /* Set a specific height */
+    min-height: 100px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+button {
+    box-shadow: 2px 2px 1px 0px rgb(187, 179, 179); 
+}
+.card {
+    display: flex;
+    width: 18em;
+    box-shadow: 0px 1px 0px 1px rgb(187, 179, 179);
+    margin-right: 1em;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+    background-color:rgb(240, 240, 240) ;
+}
+.row {
+    justify-content: center;
+}
+#toggle {
+    padding: 0px 0px 0px 0px;
+}
+#toggle_{
+    padding: 0px 0px 0px 0px;
+}
+.symbol {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.fullname {
+    text-transform: lowercase;
+    font-weight: normal;
+}
+#price {
+    color: rgb(11, 184, 11);
+}
+p {
+    justify-content: center;
+}
+.iconX{
+    position: relative;
+    float: right;
+    display:flex;
+    margin-top: 2px;
+}
+.iconX:hover{
+    color:red;
+}
+.pop{
+    width: auto;
+}
+.window {
+    display: flex;
+    position:fixed;
+    width: 19em;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    margin-top: -125px; 
+    margin-left: -140px;
+}
+.modal{
+    width: 19em;
+    top: 50%;
+    left: 50%;
+    margin-top: -125px; 
+    margin-left: -140px;
+}
+._list{
+    background-color: white;
+    position: static;
+}
+#cancel {
+    float: right;
+    width: 40%;
+    text-align: center;
+}
